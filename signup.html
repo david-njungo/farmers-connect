@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGN UP</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+
+<body>
+    <form class="form">
+        <div class="register">
+            <h3> Kindly register here </h3>
+            <p> please fill in the details as per below to create account</p>
+            <hr>
+
+            <label for="name"><b>Enter Name</b></label>
+            <input type="text" placeholder="enter full name" name=" name" required>
+            <label for="Email"><b>Enter Email</b></label>
+            <input type="text" placeholder="enter email address" name="email" required><br>
+            <br>
+            <label for="cat"><b>choose category</b></label>
+            <select name="category" id="choice">
+                <option value="farmer">Farmer</option>
+                <option value="buyer">Buyer</option>
+            </select> <br>
+            <br>
+            <label for="pwd"><b>Enter Password</b></label>
+            <input type="password" placeholder="Enter password" name="pwd" required>
+            <label for="Confirm"><b>Confirm password</b></label>
+            <input type="password" placeholder="confirm password" name="Confirm" required><br>
+            <br>
+            <input type="checkbox" name="terms" id="terms"> I Agree to terms and Conditions
+            <br>
+            <button type="submit" class="registerbtn"><strong>SIGN UP</strong></button>
+
+        </div>
+        <div class=" register signin">
+            <p>Already have an account? <a href="signin.html"> SIGN IN</a></p>
+        </div>
+    </form>
+</body>
+
+</html>
