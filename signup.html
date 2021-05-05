@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SIGN UP</title>
     <link rel="stylesheet" href="signup.css">
+    <script type="text/javascript" src="signup.js"></script>
 </head>
 
 <body>
@@ -17,9 +18,11 @@
             <hr>
 
             <label for="name"><b>Enter Name</b></label>
-            <input type="text" placeholder="enter full name" name=" name" required>
+            <input type="text" id="name" placeholder="enter full name" name=" name" required>
+            <label for="username"><b>Username</b></label>
+            <input type="text" id="username" placeholder="Enter Username" name="username" required>
             <label for="Email"><b>Enter Email</b></label>
-            <input type="text" placeholder="enter email address" name="email" required><br>
+            <input type="text" id="email" placeholder="enter email address" name="email" required><br>
             <br>
             <label for="cat"><b>choose category</b></label>
             <select name="category" id="choice">
@@ -28,13 +31,13 @@
             </select> <br>
             <br>
             <label for="pwd"><b>Enter Password</b></label>
-            <input type="password" placeholder="Enter password" name="pwd" required>
+            <input type="password" id="password" placeholder="Enter password" name="pwd" required>
             <label for="Confirm"><b>Confirm password</b></label>
-            <input type="password" placeholder="confirm password" name="Confirm" required><br>
+            <input type="password" id="conpassword" placeholder="confirm password" name="Confirm" required><br>
             <br>
             <input type="checkbox" name="terms" id="terms"> I Agree to terms and Conditions
             <br>
-            <button type="submit" class="registerbtn"><strong>SIGN UP</strong></button>
+            <button type="submit" class="registerbtn" onclick="signUp()"><strong>SIGN UP</strong></button>
 
         </div>
         <div class=" register signin">

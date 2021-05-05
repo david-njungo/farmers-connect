@@ -1,6 +1,6 @@
 body {
     background-color: rgb(153, 189, 107);
-    background-image: url("freshproduce.jpg");
+    /* background-image: url("freshproduce.jpg");*/
     background-repeat: repeat;
 }
 
@@ -15,6 +15,6 @@ body {
     margin: 20px 200px 40px 400px;
     padding: 30px;
     background-repeat: unset;
-    background-color: rgb(215, 229, 250);
-    background-image: url("colorlogin.jpg");
+    background-color: #1FE933;
+    /* background-image: url("colorlogin.jpg");*/
 }
