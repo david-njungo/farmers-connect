@@ -22,7 +22,7 @@ background-color:#368D3F;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
 }
 .content{
   margin: 1em 0em;
@@ -30,6 +30,9 @@ background-color:#368D3F;
   height: 30px;
   font-family: sans-serif;
   font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 textarea{
   margin: 1em 0em;
