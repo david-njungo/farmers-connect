@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(153, 189, 107);
+    background-repeat: repeat;
+}
+
+.loginPage {
+    color: rgb(228, 228, 238);
+    font-size: 20px;
+    border-radius: 10px;
+    border-style: ridge;
+    line-height: 1.6;
+    width: 400px;
+    height: 400px;
+    margin: 5% 0% 0% 35%;
+    padding: 30px;
+    background-repeat: unset;
+    background-color: rgb(215, 229, 250);
+    background-image: url("produce.jpeg");
+}
+
+.inputField {
+    height: 20px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 8px;
+    width: 80%;
+}
+
+#btn,
+#cancel {
+    width: 150px;
+    font-size: 20px;
+    margin: 40px 0px 0px 20px;
+    padding: 3px;
+    color: white;
+}
+
+#btn {
+    background-color: rgb(75, 181, 167);
+    border: 0px;
+    border-radius: 3px;
+}
+
+#cancel {
+    background-color: red;
+    border: 0px;
+    border-radius: 3px;
+}
+
+.create_acc_paragraph {
+    color: black;
+    margin-top: 5%;
+    text-align: center;
+}
