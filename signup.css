@@ -1,18 +1,14 @@
     .form {
         border-style: solid;
         background-color: #1FE933;
-        margin-top: 20px;
-        margin-right: 200px;
-        margin-bottom: 20px;
-        margin-left: 300px;
+        margin: 5% 0% 0% 35%;
         height: 400px;
         padding: 20px 100px 100px;
-        width: 200px;
+        width: 20%;
         color: rgb(20, 20, 19);
     }
     
     body {
-        /* background-image: url("produce.jpeg");*/
         background-repeat: repeat;
         width: 100%;
         background-color: rgb(153, 189, 107);

@@ -1,19 +1,28 @@
-function signUp() {
-    if (document.getElementById("password").value == document.getElementById("conpassword").value) {
-        var users = new Object();
-        users.name = document.getElementById("name").value;
-        users.username = document.getElementById("username").value;
-        users.email = document.getElementById("email").value;
-        users.password = document.getElementById("password").value;
+function createacc() {
+    var name = document.getElementById("name").value;
+    var email = document.getElementById("email").value;
+    var username = document.getElementById("username").value;
+    var type = document.getElementById("choice").value;
+    var password = document.getElementById("password").value;
+    var confirmpassword = document.getElementById("confirmPassword").value;
 
-
-        var postUser = new XMLHttpRequest();
-        postUser.open("POST", "/users", true);
-        postUser.setRequestHeader("Content-Type", "application/json");
-
-
-        postUser.send(JSON.stringify(users));
+    if (name == "" || email == "" || username == "" || password == "" || confirmpassword == "") {
+        alert("All fields are required")
     } else {
-        alert("Password column and Confirm Password column doesn't match!")
+        if (username.length >= 4 && password === confirmpassword) {
+            if (/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/.test(email)) {
+                alert("congratulations!")
+            } else {
+                alert("Check your email format and retry")
+            }
+        } else if (username.length < 4) {
+            alert("Username is too short");
+        } else if (password !== confirmpassword) {
+            alert("Passwords must be the same.")
+        } else {
+            alert("Unknown error")
+        }
     }
 }
+
+document.getElementById("registerbtn").addEventListener("click", createacc);
