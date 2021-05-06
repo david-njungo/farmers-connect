@@ -20,7 +20,7 @@ function createacc() {
         } else if (password !== confirmpassword) {
             alert("Passwords must be the same.")
         } else {
-            alert("Unknown error")
+            window.location.replace("signin.html");
         }
     }
 }
