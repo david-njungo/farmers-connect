@@ -10,13 +10,13 @@ body {
     border-radius: 10px;
     border-style: ridge;
     line-height: 1.6;
-    width: 400px;
-    height: 400px;
-    margin: 5% 0% 0% 35%;
+    width: 50%;
+    height: 80%;
+    margin: 5% 0% 0% 20%;
     padding: 30px;
     background-repeat: unset;
     background-color: rgb(215, 229, 250);
-    background-image: url("produce.jpeg");
+    background-image: url("./megan-thomas-xMh_ww8HN_Q-unsplash.jpg ");
 }
 
 .inputField {
@@ -50,6 +50,7 @@ body {
 }
 
 .create_acc_paragraph {
+    background-color: honeydew;
     color: black;
     margin-top: 5%;
     text-align: center;
