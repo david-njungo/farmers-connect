@@ -7,7 +7,7 @@ height: 100vh;
 background-color:#368D3F;
 }
 .farm-pages{
-  background-image: url("/farmers.jpeg");
+  background-image: url("../farmers.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
