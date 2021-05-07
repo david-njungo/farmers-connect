@@ -25,11 +25,12 @@ This is a  Landing page for a Farmers-connect.Farmers-connect provides a platfor
 3. Open `index.html` with browser
 
 ## Technologies Used
-HTML and CSS
+HTML ,JavaScriptand CSS
 ## Support and contact details
 victor.kiptoo@student.moringaschool.com
 david.njungo@student.moringaschool.com
 evans.gichohi@student.moringaschool.com
+kelvin.bett@student.moringaschool.com
 
 
 
