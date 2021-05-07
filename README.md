@@ -28,6 +28,9 @@ This is a  Landing page for a Farmers-connect.Farmers-connect provides a platfor
 HTML and CSS
 ## Support and contact details
 victor.kiptoo@student.moringaschool.com
+david.njungo@student.moringaschool.com
+evans.gichohi@student.moringaschool.com
+
 
 
 
